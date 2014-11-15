@@ -20,19 +20,19 @@
 
         <Spinner
             android:id="@+id/department_cbe"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/cbe_arrays" />
 
         <Spinner
             android:id="@+id/department_mat"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
 
         <Spinner
             android:id="@+id/department_orf"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
              />
 
