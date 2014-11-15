@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HackPrinceton</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="choose_department_cbe">CBE</string>
+    
+    <string-array name="cbe_arrays">
+        <item>CBE 245</item>
+        <item>CBE 246</item>
+        <item>CBE 250</item>
+    </string-array>
+    
+    <string name="choose_department_mat">MAT</string>
+    
+    
+    <string name="choose_department_orf">ORF</string>
+ 
+
+</resources>
