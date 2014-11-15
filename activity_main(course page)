@@ -14,37 +14,45 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="username"
+        android:text="pz5"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/course"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="course"
+        android:text="MAT 203"
         android:textSize="20sp" />
 
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/abc_search_url_text_holo"
+        android:backgroundTintMode="src_over" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/abc_search_url_text_holo"
+            android:backgroundTintMode="src_over"
             android:orientation="vertical" >
 
             <TableLayout
                 android:id="@+id/TableLayout1"
                 android:layout_width="287dp"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:background="#BFEFFF"
+                android:backgroundTint="@color/abc_search_url_text_holo"
+                android:backgroundTintMode="screen"
+                android:visibility="visible" >
 
                 <TextView
                     android:id="@+id/title1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="title1"
+                    android:text="Vector Calculus"
                     android:textSize="20sp" />
 
                 <TextView
@@ -52,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="author1"
+                    android:text="Jennifer Yin"
                     android:textSize="20sp" />
 
                 <Space
@@ -72,6 +80,7 @@
                 android:id="@+id/TableLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#E6E6FF"
                 android:orientation="horizontal" >
 
                 <TextView
@@ -79,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="title2"
+                    android:text="Advanced Vector Calculus"
                     android:textSize="20sp" />
 
                 <TextView
@@ -87,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="author2"
+                    android:text="Bink"
                     android:textSize="20sp" />
 
                 <Button
@@ -106,20 +115,21 @@
             <TableLayout
                 android:id="@+id/TableLayout3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:background="#BFEFFF" >
 
                 <TextView
                     android:id="@+id/title3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="title3"
+                    android:text="Advanced Crying"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/author3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="author3"
+                    android:text="Izzy Grabski"
                     android:textSize="20sp" />
 
                 <Button
