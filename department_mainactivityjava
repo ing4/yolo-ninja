@@ -100,7 +100,7 @@ public class MainActivity extends ActionBarActivity {
 		  public void onClick(View v) {
 	 
 		    Toast.makeText(MainActivity.this,
-			"OnClickListener : " + 
+			"You selected : " + 
 	                "\nCBE : "+ String.valueOf(department_cbe.getSelectedItem()) + 
 	                "\nMAT : "+ String.valueOf(department_mat.getSelectedItem()) +
 	                "\nORF : "+ String.valueOf(department_orf.getSelectedItem()),
