@@ -22,18 +22,21 @@
             android:id="@+id/department_cbe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:entries="@array/cbe_arrays" />
 
         <Spinner
             android:id="@+id/department_mat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             />
 
         <Spinner
             android:id="@+id/department_orf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
              />
 
         <Button
