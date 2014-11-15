@@ -6,45 +6,66 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hackprinceton.MainActivity" >
+    tools:context="com.example.hackprinceton.MainActivity"
+    android:gravity="center_horizontal" >
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="31dp"
-        android:gravity="center"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content" >
 
-        <Spinner
-            android:id="@+id/department_cbe"
+        <LinearLayout
+            android:id="@+id/linearLayout1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:entries="@array/cbe_arrays" />
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="31dp"
+            android:orientation="vertical" >
 
-        <Spinner
-            android:id="@+id/department_mat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            />
+            <Spinner
+                android:id="@+id/department_cbe"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:entries="@array/cbe_arrays"
+                android:prompt="@string/choose_department_cbe" />
 
-        <Spinner
-            android:id="@+id/department_orf"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-             />
+            <Spinner
+                android:id="@+id/department_orf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:prompt="@string/choose_department_orf" />
 
-        <Button
-            android:id="@+id/btnSubmit"
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Submit" />
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:id="@+id/department_mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:prompt="@string/choose_department_mat" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
 
     </LinearLayout>
 
