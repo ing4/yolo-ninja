@@ -17,6 +17,9 @@
     
     
     <string name="choose_department_orf">ORF</string>
+    
+    
+    <string name="test">test</string>
  
 
 </resources>
