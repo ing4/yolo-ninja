@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:text="Vector Calculus"
-                    android:textSize="20sp" />
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/author1"
@@ -89,8 +89,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:text="Advanced Vector Calculus"
-                    android:textSize="20sp" />
+                    android:text="Adv Vector Calculus"
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/author2"
@@ -126,7 +126,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Advanced Crying"
-                    android:textSize="20sp" />
+                    android:textSize="25sp" />
 
                 <TextView
                     android:id="@+id/author3"
